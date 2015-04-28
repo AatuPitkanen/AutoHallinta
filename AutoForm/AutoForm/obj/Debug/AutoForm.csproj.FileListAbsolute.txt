@@ -1,0 +1,18 @@
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoForm\AutoForm\bin\Debug\AutoForm.exe.config
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoForm\AutoForm\bin\Debug\AutoForm.exe
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoForm\AutoForm\bin\Debug\AutoForm.pdb
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoForm\AutoForm\obj\Debug\AutoForm.Form1.resources
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoForm\AutoForm\obj\Debug\AutoForm.Properties.Resources.resources
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoForm\AutoForm\obj\Debug\AutoForm.csproj.GenerateResource.Cache
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoForm\AutoForm\obj\Debug\AutoForm.exe
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoForm\AutoForm\obj\Debug\AutoForm.pdb
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoForm\AutoForm\obj\Debug\AutoForm.csprojResolveAssemblyReference.cache
+D:\G3315\AutoForm\AutoForm\bin\Debug\AutoForm.exe.config
+D:\G3315\AutoForm\AutoForm\obj\Debug\AutoForm.exe
+D:\G3315\AutoForm\AutoForm\obj\Debug\AutoForm.pdb
+D:\G3315\AutoForm\AutoForm\bin\Debug\AutoForm.exe
+D:\G3315\AutoForm\AutoForm\bin\Debug\AutoForm.pdb
+D:\G3315\AutoForm\AutoForm\obj\Debug\AutoForm.csprojResolveAssemblyReference.cache
+D:\G3315\AutoForm\AutoForm\obj\Debug\AutoForm.Form1.resources
+D:\G3315\AutoForm\AutoForm\obj\Debug\AutoForm.Properties.Resources.resources
+D:\G3315\AutoForm\AutoForm\obj\Debug\AutoForm.csproj.GenerateResource.Cache

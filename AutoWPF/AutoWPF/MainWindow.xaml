@@ -1,0 +1,76 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="AutoWPF.MainWindow"
+        Title="Autoluettelo" Height="421" Width="593">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="17*"/>
+            <RowDefinition Height="303*"/>
+        </Grid.RowDefinitions>
+        <DataGrid ItemsSource="{Binding}"  x:Name="DataGrid" Margin="0,14,0,154" Grid.Row="1"/>
+        <Menu x:Name="show" Height="31" VerticalAlignment="Top" Grid.RowSpan="2">
+            <Button Content="Colour" Click="Button_Click_2"/>
+            <Button Content="Type" Click="Button_Click_3"/>
+            <Button Content="Model" Click="Button_Click_4"/>
+            <Button Content="Vehicles" Click="Button_Click_6"/>
+            <Button Content="All" Click="Button_Click_5"/>
+            <Button Content="Reports" Click="Button_Click_10"/>
+        </Menu>
+        <TabControl Height="218" Margin="-10,168,0,-16" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="0.499,0.425">
+            <TabItem Header="New Vehicle&#xA;" Margin="0,34,-4,-26">
+                <Grid Background="#FFE5E5E5" Margin="0,6,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition Width="15*"/>
+                        <ColumnDefinition Width="47*"/>
+                    </Grid.ColumnDefinitions>
+                    <ComboBox x:Name="ComboVm" HorizontalAlignment="Left" Margin="10,94,0,0" VerticalAlignment="Top" Width="62" Height="25" RenderTransformOrigin="0.548,1.28" Grid.ColumnSpan="2"/>
+                    <ComboBox x:Name="ComboVari" HorizontalAlignment="Left" Margin="56,94,0,0" VerticalAlignment="Top" Width="59" Height="25" RenderTransformOrigin="0.508,1.68" Grid.Column="1">
+                        <ComboBox Height="0" Width="21"/>
+                    </ComboBox>
+                    <Label Content="Vuosi&#xA;" HorizontalAlignment="Left" Margin="9,67,0,0" VerticalAlignment="Top" Height="27" Width="42" RenderTransformOrigin="0.619,0.889" Grid.ColumnSpan="2"/>
+                    <ComboBox x:Name="ComboTyyppi" HorizontalAlignment="Left" Margin="129,94,0,0" VerticalAlignment="Top" Width="87" RenderTransformOrigin="-0.085,0.417" Height="25" Grid.ColumnSpan="2" Grid.Column="1"/>
+                    <TextBox x:Name="Reknro"  HorizontalAlignment="Left" Height="23" Margin="10,44,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="62" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="Merkki" HorizontalAlignment="Left" Height="23" Margin="52,44,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="59" Grid.Column="1"/>
+                    <TextBox x:Name="Malli" HorizontalAlignment="Left" Height="23" Margin="129,44,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="87" Grid.ColumnSpan="2" Grid.Column="1"/>
+                    <Label Content="Reknro&#xA;" HorizontalAlignment="Left" Margin="6,-6,0,0" VerticalAlignment="Top" Height="27" Grid.ColumnSpan="2"/>
+                    <Label Content="Merkki&#xA;" HorizontalAlignment="Left" Margin="56,20,0,0" VerticalAlignment="Top" Height="24" Grid.Column="1"/>
+                    <Label Content="Malli&#xA;" HorizontalAlignment="Left" Margin="129,20,0,0" VerticalAlignment="Top" Height="29" Width="54" RenderTransformOrigin="0.519,1.31" Grid.ColumnSpan="2" Grid.Column="1"/>
+                    <Label Content="Vari&#xA;" HorizontalAlignment="Left" Margin="52,67,0,0" VerticalAlignment="Top" Height="27" Grid.Column="1"/>
+                    <Label Content="Tyyppi&#xA;&#xA;" HorizontalAlignment="Left" Margin="129,70,0,0" VerticalAlignment="Top" Height="30" Grid.ColumnSpan="2" Grid.Column="1"/>
+                    <TextBox x:Name="DeleteAuto" Margin="0,0,7,38" TextWrapping="Wrap" Height="23" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="78" Grid.Column="2"/>
+                    <Button Content="Delete&#xA;" Margin="0,0,10,66" Click="Button_Click_1" HorizontalAlignment="Right" Width="75" Height="23" VerticalAlignment="Bottom" Grid.Column="2"/>
+                    <Button x:Name="Update" Content="Update" Margin="0,0,10,94" RenderTransformOrigin="-0.154,0.584" Click="Update_Click" HorizontalAlignment="Right" Width="75" Height="28" VerticalAlignment="Bottom" Grid.Column="2"/>
+                    <Button Content="Add Vehicle&#xA;" HorizontalAlignment="Left" Margin="86,94,0,0" VerticalAlignment="Top" Width="82" Height="25" Click="Button_Click_7" Grid.Column="2"/>
+                    <CheckBox Content="Rekisterissä&#xA;" x:Name="RekisteriL" HorizontalAlignment="Left" Margin="86,62,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Edit Vehicle&#xA;" Margin="-1,37,-3,-31">
+                <Grid Background="#FFE5E5E5" Margin="0,20,-1,2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <ComboBox x:Name="ComboVm_Copy" HorizontalAlignment="Left" Margin="30,86,0,0" VerticalAlignment="Top" Width="64" RenderTransformOrigin="0.681,0.208"/>
+                    <ComboBox x:Name="ComboVari_Copy" HorizontalAlignment="Left" Margin="111,86,0,0" VerticalAlignment="Top" Width="65">
+                        <ComboBox Height="0" Width="21"/>
+                    </ComboBox>
+                    <Label Content="Vuosi&#xA;" HorizontalAlignment="Left" Margin="30,58,0,0" VerticalAlignment="Top" Height="27" Width="45" RenderTransformOrigin="1.222,0.963"/>
+                    <ComboBox x:Name="ComboTyyppi_Copy" Margin="193,86,316,0" VerticalAlignment="Top" RenderTransformOrigin="-0.085,0.417"/>
+                    <TextBox x:Name="Reknro_Copy"  HorizontalAlignment="Left" Height="23" Margin="30,34,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="64" RenderTransformOrigin="1.2,0.913"/>
+                    <TextBox x:Name="Merkki_Copy" HorizontalAlignment="Left" Height="23" Margin="111,36,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="65" RenderTransformOrigin="1.453,0.522"/>
+                    <TextBox x:Name="Malli_Copy" HorizontalAlignment="Left" Height="23" Margin="193,36,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="66"/>
+                    <Label Content="Reknro&#xA;" HorizontalAlignment="Left" Margin="30,5,0,0" VerticalAlignment="Top" Width="45" Height="29"/>
+                    <Label Content="Merkki&#xA;" HorizontalAlignment="Left" Margin="111,7,0,0" VerticalAlignment="Top" Width="54" Height="29"/>
+                    <Label Content="Malli&#xA;" HorizontalAlignment="Left" Margin="193,10,0,0" VerticalAlignment="Top" Width="37" Height="29"/>
+                    <Label Content="Vari&#xA;" HorizontalAlignment="Left" Margin="111,59,0,0" VerticalAlignment="Top" Width="41" Height="27" RenderTransformOrigin="1.683,0.852"/>
+                    <Label Content="Tyyppi&#xA;&#xA;" HorizontalAlignment="Left" Margin="193,58,0,0" VerticalAlignment="Top" Width="55" Height="28"/>
+                    <Button Content="Edit Vehicle&#xA;" HorizontalAlignment="Left" Margin="275,86,0,0" VerticalAlignment="Top" Width="82" Height="24" Click="Button_Click_11"/>
+                    <CheckBox Content="Rekisterissä" x:Name="RekisteriE" HorizontalAlignment="Left" Margin="273,58,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
+    

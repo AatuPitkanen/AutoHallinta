@@ -1,0 +1,26 @@
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoWPF\AutoWPF\bin\Debug\AutoWPF.exe.config
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoWPF\AutoWPF\obj\Debug\AutoWPF.csprojResolveAssemblyReference.cache
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoWPF\AutoWPF\obj\Debug\MainWindow.baml
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoWPF\AutoWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoWPF\AutoWPF\obj\Debug\App.g.cs
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoWPF\AutoWPF\obj\Debug\AutoWPF_MarkupCompile.cache
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoWPF\AutoWPF\obj\Debug\AutoWPF.g.resources
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoWPF\AutoWPF\obj\Debug\AutoWPF.Properties.Resources.resources
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoWPF\AutoWPF\obj\Debug\AutoWPF.csproj.GenerateResource.Cache
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoWPF\AutoWPF\bin\Debug\AutoWPF.exe
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoWPF\AutoWPF\bin\Debug\AutoWPF.pdb
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoWPF\AutoWPF\obj\Debug\AutoWPF.exe
+C:\Users\Aatu\Documents\Visual Studio 2012\Projects\AutoWPF\AutoWPF\obj\Debug\AutoWPF.pdb
+D:\G3315\AutoWPF\AutoWPF\bin\Debug\AutoWPF.exe.config
+D:\G3315\AutoWPF\AutoWPF\obj\Debug\AutoWPF.exe
+D:\G3315\AutoWPF\AutoWPF\obj\Debug\AutoWPF.pdb
+D:\G3315\AutoWPF\AutoWPF\bin\Debug\AutoWPF.exe
+D:\G3315\AutoWPF\AutoWPF\bin\Debug\AutoWPF.pdb
+D:\G3315\AutoWPF\AutoWPF\obj\Debug\AutoWPF.csprojResolveAssemblyReference.cache
+D:\G3315\AutoWPF\AutoWPF\obj\Debug\MainWindow.baml
+D:\G3315\AutoWPF\AutoWPF\obj\Debug\MainWindow.g.cs
+D:\G3315\AutoWPF\AutoWPF\obj\Debug\App.g.cs
+D:\G3315\AutoWPF\AutoWPF\obj\Debug\AutoWPF_MarkupCompile.cache
+D:\G3315\AutoWPF\AutoWPF\obj\Debug\AutoWPF.g.resources
+D:\G3315\AutoWPF\AutoWPF\obj\Debug\AutoWPF.Properties.Resources.resources
+D:\G3315\AutoWPF\AutoWPF\obj\Debug\AutoWPF.csproj.GenerateResource.Cache
