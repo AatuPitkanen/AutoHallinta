@@ -1,5 +1,1 @@
-## Windowsohjelmoinnin harkkatyö
-### SQL 
-### C#
-### WPF
-### Forms
+Forms & WPF SQL Auton hallinta 
